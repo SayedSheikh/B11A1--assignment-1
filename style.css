@@ -290,3 +290,39 @@ button[class="selected"] {
 .amount-input input::placeholder {
   text-align: center;
 }
+/* subscribe section style */
+
+.subscribe {
+  margin-bottom: 80px;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+.subscribe .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.subscribe .input input {
+  padding: 18px 40px;
+  width: 500px;
+  border-radius: 8px 0 0 8px;
+  background: #fff;
+  border: none;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+.subscribe .input button {
+  padding: 17px 40px;
+  border-radius: 0 8px 8px 0;
+  background: #006a50;
+  border: none;
+
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 15px;
+  font-weight: 600;
+}
