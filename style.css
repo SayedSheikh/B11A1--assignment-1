@@ -39,7 +39,7 @@
 
 .primary-btn-1 {
   padding: 17px 34px;
-
+  font-family: "Fira Sans";
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -50,7 +50,7 @@
   padding: 13px 26px;
   border-radius: 8px;
   background: #006a50;
-
+  font-family: "Fira Sans";
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -81,7 +81,7 @@
 .card-btn {
   padding: 11px 20px;
   border-radius: 8px;
-
+  font-family: "Fira Sans";
   color: #fff;
   font-family: "Fira Sans";
   font-size: 16px;
@@ -103,7 +103,7 @@ nav h1 {
 }
 nav button {
   padding: 15px 30px;
-
+  font-family: "Fira Sans";
   color: #006a50;
   font-size: 18px;
   font-weight: 600;
@@ -237,4 +237,57 @@ main {
   margin: 10px 0;
   display: flex;
   gap: 10px;
+}
+
+/* donate section style */
+
+.donate {
+  margin: 56px 0 80px 0;
+  padding: 0 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.amount-btn {
+  display: flex;
+  gap: 20px;
+}
+.amount-btn button {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: #fff;
+  font-family: "Fira Sans";
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 33px;
+  font-weight: 700;
+  margin: 32px 0;
+}
+button[class="selected"] {
+  background-color: #c6e4d6;
+}
+
+.amount-btn:hover > button {
+  background-color: white;
+}
+.amount-btn button:hover {
+  background: #c6e4d6;
+  transition: 0.5s;
+}
+.amount-input input {
+  width: 830px;
+  padding: 20px 40px;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  margin-bottom: 38px;
+}
+
+.amount-input input::placeholder {
+  text-align: center;
 }
