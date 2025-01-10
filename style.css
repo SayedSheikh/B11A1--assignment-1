@@ -160,3 +160,36 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+/* quote section style */
+
+.quote {
+  margin-bottom: 80px;
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+
+  background: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25px 22px;
+}
+.quote .speech {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.quote h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.quote .designation {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
