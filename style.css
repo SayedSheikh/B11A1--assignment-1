@@ -204,7 +204,57 @@ main {
 }
 
 /* opinion style */
+.opinion {
+  margin-bottom: 80px;
+}
+.questions {
+  padding: 32px;
+  background: white;
+  border-radius: 16px;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+tr .question {
+  padding: 24px;
+  width: 950px;
+}
+tr .ans {
+  width: 145px;
+  padding: 24;
+  text-align: center;
+}
+th div {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
 
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #c6e4d6;
+}
+th div h3 {
+  color: #0e0e0e;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ans select {
+  padding: 8px 10px;
+
+  border-radius: 4px;
+  border: 1px solid #0e0e0e;
+  background: #c6e4d6;
+}
+select option {
+  color: #0e0e0e;
+  font-size: 14px;
+  font-weight: 500;
+}
 /* recent news */
 .news {
   display: flex;
