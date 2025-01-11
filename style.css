@@ -45,6 +45,8 @@
   font-weight: 600;
   border-radius: 8px;
   border: none;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .primary-btn-2 {
   padding: 13px 26px;
@@ -55,6 +57,8 @@
   font-size: 18px;
   font-weight: 600;
   border: none;
+  transition: 0.2s;
+  cursor: pointer;
 }
 /* primary card style */
 .card-title {
@@ -87,6 +91,8 @@
   font-size: 16px;
   font-weight: 600;
   border: none;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 /* navbar style */
@@ -100,6 +106,7 @@ nav h1 {
   color: #0e0e0e;
   font-size: 32px;
   font-weight: 700;
+  cursor: pointer;
 }
 nav button {
   padding: 15px 30px;
@@ -109,6 +116,8 @@ nav button {
   font-weight: 600;
 
   border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
 }
 /* banner style */
 
@@ -249,6 +258,7 @@ th div h3 {
   border-radius: 4px;
   border: 1px solid #0e0e0e;
   background: #c6e4d6;
+  cursor: pointer;
 }
 select option {
   color: #0e0e0e;
@@ -317,13 +327,6 @@ button[class="selected"] {
   background-color: #c6e4d6;
 }
 
-.amount-btn:hover > button {
-  background-color: white;
-}
-.amount-btn button:hover {
-  background: #c6e4d6;
-  transition: 0.5s;
-}
 .amount-input input {
   width: 830px;
   padding: 20px 40px;
@@ -375,6 +378,9 @@ button[class="selected"] {
   font-family: "Fira Sans";
   font-size: 15px;
   font-weight: 600;
+
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 /* footer section */
@@ -401,4 +407,38 @@ footer hr {
   width: 1100px;
   background: rgba(14, 14, 14, 0.1);
   margin: 32px 0;
+}
+
+/* hover effects */
+
+.amount-btn:hover > button {
+  background-color: white;
+}
+.amount-btn button:hover {
+  background: #c6e4d6;
+  transition: 0.5s;
+}
+
+nav button:hover {
+  background: #006a50;
+  color: #fff;
+}
+
+.primary-btn-1:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.primary-btn-2:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.card-btn:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.subscribe .input button:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.social img:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
 }
